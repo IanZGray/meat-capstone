@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import logo from '../images/logo-original.png'
 
 function Nav() {
@@ -6,12 +8,12 @@ function Nav() {
     <nav>
         <img className='logo' src={logo} alt='little lemon logo' />
         <ul>
-            <li ><a href='/'>Home</a></li>
-            <li><a href='/About'>About</a></li>
-            <li><a href='/Menu'>Menu</a></li>
-            <li><a href='/Reservations'>Reservations</a></li>
-            <li><a href='/Order Online'>Order Online</a></li>
-            <li><a href='/Login'>Login</a></li>
+            <li ><Link to='/'>Home</Link></li>
+            <li><Link to='/About'>About</Link></li>
+            <li><Link to='/Menu'>Menu</Link></li>
+            <li><Link to='/Reservations'>Reservations</Link></li>
+            <li><Link to='/OrderOnline'>Order Online</Link></li>
+            <li><Link to='/Login'>Login</Link></li>
         </ul>
     </nav>
   )
