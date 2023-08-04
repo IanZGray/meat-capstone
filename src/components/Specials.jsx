@@ -18,6 +18,8 @@ function Specials() {
             'display': 'flex',
             'justifyContent': 'space-between',
             'alignItems': 'center',
+            'marginLeft': '1%',
+            'marginRight': '1%',
           }}
         >
           <h1

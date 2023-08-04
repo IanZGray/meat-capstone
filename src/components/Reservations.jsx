@@ -1,15 +1,16 @@
 import React from 'react'
 import BookingForm from './BookingForm'
 
-function Reservations() {
+function Reservations({selections, selectionFunc, times} ) {
+
   return (
-    <div 
+    <div
       style={{
         'display': 'flex',
         'justifyContent': 'center',
       }}
     >
-      <BookingForm/>
+      <BookingForm selections={selections} selectionFunc={selectionFunc} times={times} />
     </div>
   )
 }

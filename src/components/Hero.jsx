@@ -17,7 +17,7 @@ function Hero() {
           <h2>Chicago</h2>
           <h3 
           style={{
-            'width': '15vw', 
+            'width': '20vw', 
             'minWidth': '200px',
             'fontWeight': '400'
             }}
