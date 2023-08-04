@@ -17,9 +17,13 @@ h2 {
   font-weight: 400;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
-p {
+h4 {
+  color: black;
+  font-size: 1.2rem;
+}
+p, label, select, input {
   font-family: 'Karla', sans-serif;
 }
 
@@ -67,6 +71,26 @@ a:visited {
 }
 a:hover {
   color: #f4ce14;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #edefee;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+form > label, button{
+  margin-top: 3%;
+}
+form > input, select {
+  margin: 2%;
+}
+label {
+  display: flex;
+  flex-direction: column;
 }
 
 

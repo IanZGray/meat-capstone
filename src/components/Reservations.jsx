@@ -1,8 +1,16 @@
 import React from 'react'
+import BookingForm from './BookingForm'
 
 function Reservations() {
   return (
-    <div>Reservations</div>
+    <div 
+      style={{
+        'display': 'flex',
+        'justifyContent': 'center',
+      }}
+    >
+      <BookingForm/>
+    </div>
   )
 }
 

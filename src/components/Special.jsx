@@ -61,16 +61,16 @@ function Special() {
                     </div>
                     <p
                         style={{
-                            'margin-top': '15%',
-                            'margin-bottom':'15%',
+                            'margin-top': '5%',
+                            'margin-bottom':'5%',
                             'height': '110px',
                         }}
                     >{special.info}</p>
-                    <h5
+                    <h4
                         style={{
                             'flexGrow':'2'
                         }}
-                    >Order a delivery</h5>
+                    >Order a delivery</h4>
                 </div>
             </div>
         ))}
