@@ -22,7 +22,7 @@ function Hero() {
             'fontWeight': '400'
             }}
           >We are a family owned Mediteranean restaurant, focused on traditional recipes served with a modern twist.</h3>
-          <button><Link style={{  'color':'#333333', 'fontWeight': 'bold' }}>Reserve a Table</Link></button>
+          <button><Link to='/Reservations' style={{  'color':'#333333', 'fontWeight': 'bold' }}>Reserve a Table</Link></button>
         </div>
       <img 
       src={heroImage} 
