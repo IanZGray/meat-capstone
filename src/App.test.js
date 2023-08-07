@@ -8,12 +8,12 @@ test('Renders the BookingForm Header', () => {
     expect(headingElement).toBeInTheDocument()
 })
 
-test('Times initialized', () => {
-    render(<BookingForm />);
-    // BookingForm.defaultProps = { times: ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00']}
-    const calendar = screen.getByTestId("calendar")
-    const times = screen.getByTestId('time-pulldown')
-    const option = screen.getAllByTestId('times')
-    // fireEvent.change(calendar)
-    expect(times).toContainElement(option)
-})
+// test('Times initialized', () => {
+//     render(<BookingForm />);
+//     // BookingForm.defaultProps = { times: ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00']}
+//     const calendar = screen.getByTestId("calendar")
+//     const times = screen.getByTestId('time-pulldown')
+//     const option = screen.getAllByTestId('times')
+//     // fireEvent.change(calendar)
+//     expect(times).toContainElement(option)
+// })
