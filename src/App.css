@@ -179,6 +179,7 @@ input:invalid {
   max-height: auto;
   margin-right: 10vw;
   margin-top: 2vh;
+  margin-left: 10vw;
 }
 
 .specialSection {
