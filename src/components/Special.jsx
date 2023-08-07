@@ -28,7 +28,7 @@ function Special() {
   return (
     <div className='specialMap'>
         {specials.map((special) => (
-            <div 
+            <article 
                 className='special'
             >
                 <img 
@@ -72,7 +72,7 @@ function Special() {
                         }}
                     >Order a delivery</h4>
                 </div>
-            </div>
+            </article>
         ))}
     </div>
   )

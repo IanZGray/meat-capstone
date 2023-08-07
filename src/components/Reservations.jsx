@@ -1,7 +1,7 @@
 import React from 'react'
 import BookingForm from './BookingForm'
 
-function Reservations({selections, selectionFunc, times} ) {
+function Reservations({ selections, selectionFunc, times, timesDispatch } ) {
 
   return (
     <div
@@ -10,7 +10,7 @@ function Reservations({selections, selectionFunc, times} ) {
         'justifyContent': 'center',
       }}
     >
-      <BookingForm selections={selections} selectionFunc={selectionFunc} times={times} />
+      <BookingForm selections={selections} selectionFunc={selectionFunc} times={times} timesDispatch={timesDispatch} />
     </div>
   )
 }
