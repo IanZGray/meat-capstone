@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useReducer, useEffect } from 'react'
+import { useState, useReducer } from 'react'
 import { Route, Routes } from 'react-router-dom'
 // import { fetchAPI } from "https://raw.githubusercontent.com/Meta-Front-End-Developer-PC/capstone/master/api.js"
 
