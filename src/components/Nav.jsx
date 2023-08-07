@@ -6,7 +6,7 @@ import logo from '../images/logo-original.png'
 function Nav() {
   return (
     <nav>
-        <img className='logo' src={logo} alt='little lemon logo' />
+        <img className='logo  navbar-expand-lg' src={logo} alt='little lemon logo' />
         <ul>
             <li ><Link to='/'>Home</Link></li>
             <li><Link to='/About'>About</Link></li>

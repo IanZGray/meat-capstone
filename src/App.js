@@ -17,14 +17,16 @@ function App() {
   return (
     <>
       <Nav/>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Menu' element={<Menu />} />
-        <Route path='/Reservations' element={<Reservations />} />
-        <Route path='/OrderOnline' element={<OrderOnline />} />
-        <Route path='/Login' element={<Login />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Menu' element={<Menu />} />
+          <Route path='/Reservations' element={<Reservations />} />
+          <Route path='/OrderOnline' element={<OrderOnline />} />
+          <Route path='/Login' element={<Login />} />
+        </Routes>
+      </main>
       <Footer/>
     </>
   );
